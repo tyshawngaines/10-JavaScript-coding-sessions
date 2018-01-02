@@ -1,0 +1,164 @@
+HTML
+------------------
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+        <title>salary calculator</title>
+    </head>
+    <body>
+ <div class="container">
+ <h3>Salary Calculator</h3>
+     
+           <div class="row">
+         <div class ="col">
+         
+              <div class="card text-right" id="input">
+                  <p id="actualinput">0</p>
+              </div>
+             
+         </div>
+         </div>
+         
+         
+     
+     <div class="row">
+         <div class ="col" id="7">
+         
+              <div class="card text-center">7</div>
+             
+         </div>
+         <div class ="col" id="8">
+          <div class="card text-center">8</div>
+             
+             
+         </div>
+         <div class="col" id="9">
+         <div class="card text-center">9</div>
+             
+         </div>
+         
+     </div>
+       <div class="row">
+         <div class ="col" id="4">
+         
+              <div class="card text-center">4</div>
+             
+         </div>
+         <div class ="col" id="5">
+          <div class="card text-center">5</div>
+             
+             
+         </div>
+         <div class="col" id="6">
+         <div class="card text-center">6</div>
+             
+         </div>
+         
+     </div>
+     
+       <div class="row">
+         <div class ="col" id="1">
+         
+              <div class="card text-center">1</div>
+             
+         </div>
+         <div class ="col" id="2">
+          <div class="card text-center">2</div>
+             
+             
+         </div>
+         <div class="col" id="3">
+         <div class="card text-center">3</div>
+             
+         </div>
+         
+     </div>
+       <div class="row">
+         <div class ="col" id="z0">
+         
+              <div class="card text-center">0</div>
+          
+         </div>
+            <div class ="col" id="eq">
+         
+              <div class="card text-center">=</div>
+          
+         </div>
+         
+     </div>
+     
+ </div> 
+    
+   
+   
+   
+   
+    </body>
+</html>
+--------------
+CSS
+--------------
+body {
+    
+}
+#display{
+    border:1px solid black;
+}
+
+.container{
+    background-color:gold;
+}
+
+#input{
+
+    height:40px;
+}
+
+
+.card{
+    box-shadow:1px 1px gray;
+    padding:5px;
+    margin:3px;
+}
+#z0{
+    margin-bottom:15px;
+}
+#eq{
+    
+}
+-------------------
+JavaScript 
+-------------------
+function a(x){
+    if(x<5){
+        x*=.90
+        
+    }
+    else if(x<18){
+        x*=.88
+        
+    }
+    else if(x<40){
+        x*=.78
+        
+    }
+    else if(x<75){
+        x*=.76
+        
+    }
+    else if(x<96){
+        x*=.68
+        
+    }
+    else if(x<240){
+        x*=.65
+        
+    }
+    else{
+        x*=.63
+        
+    }
+}
