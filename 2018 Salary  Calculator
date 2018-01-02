@@ -162,3 +162,47 @@ function a(x){
         
     }
 }
+
+
+
+
+
+$('#o1').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>1</p>')	
+})
+
+$('#t2').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>2</p>')	
+})
+
+$('#t3').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>3</p>')	
+})
+
+$('#t4').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>4</p>')	
+})
+
+$('#f5').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>5</p>')	
+})
+
+$('#s6').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>6</p>')	
+})
+
+$('#s7').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>7</p>')	
+})
+
+$('#e8').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>8</p>')	
+})
+
+$('#n9').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>9</p>')	
+})
+
+$('#z0').click(function(){
+	$('#actualinput,#basepay,#basetaxes,#weeklywtaxes,#monthwtaxes,#yearlywtaxes').append('<p>0</p>')	
+})
